@@ -1,0 +1,12 @@
+{
+  "name": "blueribbon-link-fixer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/fix-links.test.mjs",
+    "fix:dry": "node scripts/fix-all.mjs --dry",
+    "fix": "node scripts/fix-all.mjs"
+  }
+}
